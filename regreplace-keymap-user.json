@@ -1,0 +1,32 @@
+[
+{ "keys": ["tab"], "command": "expand_abbreviation_by_tab",
+  "context": [
+    {
+      "operand": "source.js", 
+      "operator": "equal", 
+      "match_all": true, 
+      "key": "selector"
+    },
+    {
+        "key": "preceding_text", 
+        "operator": "regex_contains", 
+        "operand": "(\\b(a\\b|br|div|h1|h2|h3|form|img|ol|li|label|input|nav|Link|ul|span|select|option|style|strong|textarea|p\\b|button)(\\.\\w*|>\\w*)?)", 
+        "match_all": true
+    },
+    {   
+      "key": "selection_empty", 
+      "operator": "equal", 
+      "operand": true,
+      "match_all": true 
+    }
+  ]
+},
+{ "keys": ["tab"], "command": "next_field", "context":
+  [
+    { "key": "has_next_field", "operator": "equal", "operand": true }
+  ]
+},
+{"keys": ["ctrl+alt+shift+d"], "command": "add_date_time_stamp" },
+{"keys": ["alt+d"], "command": "add_date_stamp" },
+{"keys": ["ctrl+alt+t"], "command": "add_time_stamp" }
+]

@@ -1,0 +1,8 @@
+{
+	"completion_active_list":{
+		"css-properties":true,
+		"html":true,
+		"javascript":true,
+		"react": true
+	}
+}

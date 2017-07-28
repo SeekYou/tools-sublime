@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Babel",
+		"Better Completion",
+		"ChineseLocalizations",
+		"Diffy",
+		"EditorConfig",
+		"Emmet",
+		"Gutter Color",
+		"Highlight",
+		"HTML-CSS-JS Prettify",
+		"Indent XML",
+		"JavaScriptNext - ES6 Syntax",
+		"LESS",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Material Theme",
+		"Package Control",
+		"Pretty JSON",
+		"RegReplace",
+		"SCSS",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SVG-Snippets",
+		"Vue Syntax Highlight",
+		"xml2json",
+		"XmlDocs"
+	]
+}

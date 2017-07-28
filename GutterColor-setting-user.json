@@ -1,0 +1,4 @@
+{
+	"convert_path" : "D:/Program Files/ImageMagick",
+	"supported_syntax": ["css", "scss", "sass", "less", "stylus", "css3", "xml","vue","html"]
+}
