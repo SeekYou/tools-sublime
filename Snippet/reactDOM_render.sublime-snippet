@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
 ReactDOM.render(
-	${1}
+	${1},
+	document.getElementById('root')
 )
 
 ]]></content>

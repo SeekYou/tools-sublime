@@ -1,10 +1,9 @@
 <snippet>
 	<content><![CDATA[
-import ${1} from './${1}';
-
+document.getElementById('root')
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>im</tabTrigger>
+	<tabTrigger>dgr</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
